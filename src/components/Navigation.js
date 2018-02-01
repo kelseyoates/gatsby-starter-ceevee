@@ -16,22 +16,22 @@ const Navigation = () => (
       </li>
       <li>
         <a className="smoothscroll" href="#resume">
-          Resume
+          Services
+        </a>
+      </li>
+      <li>
+        <a className="smoothscroll" href="#our-team">
+          Our Team
         </a>
       </li>
       <li>
         <a className="smoothscroll" href="#portfolio">
-          Works
-        </a>
-      </li>
-      <li>
-        <a className="smoothscroll" href="#testimonials">
           Testimonials
         </a>
       </li>
       <li>
         <a className="smoothscroll" href="#footer">
-          Footer
+          Contact
         </a>
       </li>
     </ul>

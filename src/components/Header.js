@@ -8,7 +8,7 @@ const Header = () => (
   <header id="home">
     <Navigation />
     <Banner />
-    <ScrollDown />
+    {/* <ScrollDown /> */}
   </header>
 );
 

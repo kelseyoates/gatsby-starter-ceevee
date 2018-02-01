@@ -1,55 +1,92 @@
 import React from "react";
+import joannePic from "../assets/images/jl3.jpg";
+import glennPic from "../assets/images/gb.jpg";
+import kathyPic from "../assets/images/kathy.jpg";
+import lizPic from "../assets/images/liz.jpeg";
+import { FaPaperPlane, FaLinkedin, FaCalendar } from "react-icons/lib/fa";
+
 
 const Work = () => (
-  <div className="row work">
-    <div className="three columns header-col">
-      <h1>
-        <span>Work</span>
-      </h1>
+  <div id="our-team" className="row work">
+    <div className="ten columns header-col offset-1">
+      <h1>Our Team</h1>
+      <h6>Whether you are interested in start-up services through completion of CLIA and Massachusetts state licensure, on-going oversight of your lab or consulting for special projects related to your laboratory, South Shore Laboratory Consultants is available to address your needs.</h6>
     </div>
 
-    <div className="nine columns main-col">
-      <div className="row item">
-        <div className="twelve columns">
-          <h3>Awesome Design Studio</h3>
-          <p className="info">
-            Senior UX Designer
-            <span>&bull;</span>
-            <em className="date">March 2010 - Present</em>
-          </p>
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede
-            mollis pretium.
-          </p>
-        </div>
+<div className="twelve columns">
+    <div className="six columns header-col">
+      <div className="team-member">
+        <img className="team" src={joannePic} alt="" />
+        <h3>Joanne B. Lannon, M.ED., DLM (ASCP)</h3>
+        <h5>Founder & President</h5>
+          <p>Joanne Lannon, President and Founder of South Shore Laboratory Consultants, has over 25 years of experience in laboratory medicine, and has provided consulting services to many types of clinical laboratories since 1988.</p>
+          <p>the state of Massachusetts, she has used her vast experience to maintain an exceptional reputation within the industry. Joanne is always highly recommended by professionals in her field.</p>
+          <p>She has a Masters Degree in Education and is certified by the American Society of Clinical Pathologists as a Diplomate in Laboratory Management.</p>
       </div>
 
-      <div className="row item">
-        <div className="twelve columns">
-          <h3>Super Cool Studio</h3>
-          <p className="info">
-            UX Designer
-            <span>&bull;</span>
-            <em className="date">March 2007 - February 2010</em>
-          </p>
+      <div className="member-social">
+              <a href="mailto:joannelannon@sslabconsultants.com"><FaPaperPlane/></a>
+              <a href="https://www.linkedin.com/company/27222319/" target="blank"><FaLinkedin/></a>
+              {/* <a href="http://www.calendly.com" target="blank"><FaCalendar/></a> */}
+      </div>
 
-          <p>
-            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-            ornare odio. Sed non mauris vitae erat
-          </p>
-        </div>
+    </div>
+
+    <div className="six columns header-col">
+      <div className="team-member">
+      <img className="team" src={kathyPic} alt="" />
+        <h3>Kathleen R. Oates, MT (ASCP) MPH</h3>
+        <h5>Director of Quality Assurance</h5>
+          <p>Director of Quality Assurance for South Shore Laboratory Consultants since 1993, Kathy Oates has worked in laboratory medicine for over 25 years.</p>
+          <p>Her past employment includes Supervisor of the Clinical Laboratory Program at the Massachusetts Department of Public Health.</p>
+          <p>Kathy is highly respected by her peers and well known by professionals throughout the industry. She is a Medical Technologist certified by the American Board of Clinical Pathologists and holds a Masters of Public Health from Boston University.</p>
+      </div>
+
+      <div className="member-social">
+              <a href="mailto:koates@sslabconsultants.com "><FaPaperPlane/></a>
+              {/* <a href="http://www.linkedin.com" target="blank"><FaLinkedin/></a> */}
+              <a href="http://www.calendly.com/kathyoates" target="blank"><FaCalendar/></a>
+      </div>
+
+    </div>
+
+</div>
+
+<div className="twelve columns">
+    <div className="six columns header-col">
+      <div className="team-member">
+      <img className="team" src={glennPic} alt="" />
+        <h3>Glenn Bouchie, MT (ASCP)</h3>
+        <h5>Senior Regulatory Consultant</h5>
+          <p>Glenn Bouchie is an ASCP Board registered Medical Technologist. He has functioned as a Laboratory Manager, Senior Research Scientist, Principle Investigator, CAP Inspector, and Technical Supervisor with over 25 years of experience in method research and development, regulatory compliance, laboratory operations management, quality assurance, and process improvement in Research, Hospital, Clinical Diagnostic, Drug Development, and Life Sciences settings.</p>
+      </div>
+
+      <div className="member-social">
+              <a href="mailto:gbouchie@sslabconsultants.com "><FaPaperPlane/></a>
+              {/* <a href="http://www.linkedin.com" target="blank"><FaLinkedin/></a>
+              <a href="http://www.calendly.com" target="blank"><FaCalendar/></a> */}
+      </div>
+
+    </div>
+
+
+    <div className="six columns header-col">
+      <div className="team-member">
+      <img className="team" src={lizPic} alt="" />
+        <h3>Elizabeth Mullady</h3>
+        <h5>Senior Regulatory Consultant</h5>
+          <p>Elizabeth Mullady is the newest member of the SSLC team. Bio on the way!</p>
+      </div>
+
+      <div className="member-social">
+              <a href="mailto:emullady@sslabconsultants.com "><FaPaperPlane/></a>
+              {/* <a href="http://www.linkedin.com" target="blank"><FaLinkedin/></a>
+              <a href="http://www.calendly.com" target="blank"><FaCalendar/></a> */}
       </div>
     </div>
+    
+    </div>
+    
   </div>
 );
 

@@ -8,6 +8,8 @@ const Skills = () => (
       </h1>
     </div>
 
+
+
     <div className="nine columns main-col">
       <p>
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -18,7 +20,7 @@ const Skills = () => (
         voluptatem sequi nesciunt.
       </p>
 
-      <div className="bars">
+      {/* <div className="bars">
         <ul className="skills">
           <li>
             <span className="bar-expand photoshop" />
@@ -45,7 +47,11 @@ const Skills = () => (
             <em>Nodejs</em>
           </li>
         </ul>
-      </div>
+      </div> */}
+
+
+
+
     </div>
   </div>
 );
