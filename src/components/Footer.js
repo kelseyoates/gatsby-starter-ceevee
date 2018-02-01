@@ -8,9 +8,15 @@ import {
   FaLinkedin
 } from "react-icons/lib/fa";
 
+
+
+
+
 const Footer = () => (
   <footer id="footer">
     <div className="row">
+
+
       <div className="twelve columns">
         <ul className="social-links">
           <li>
@@ -18,7 +24,7 @@ const Footer = () => (
               <FaLinkedin />
             </a>
           </li>
-          
+
         </ul>
 
         <ul className="copyright">
