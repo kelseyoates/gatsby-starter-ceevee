@@ -45,7 +45,7 @@ const Work = () => (
       <div className="member-social">
               <a href="mailto:koates@sslabconsultants.com "><FaPaperPlane/></a>
               {/* <a href="http://www.linkedin.com" target="blank"><FaLinkedin/></a> */}
-              <a href="http://www.calendly.com/kathyoates" target="blank"><FaCalendar/></a>
+              {/* <a href="http://www.calendly.com/kathyoates" target="blank"><FaCalendar/></a> */}
       </div>
 
     </div>
