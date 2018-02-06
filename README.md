@@ -25,6 +25,8 @@ Find more starter templates like this on [Gatsby Starters](https://www.gatsbyjs.
 
 #### Updated Here
 
+Adding new information here
+
 ### Contributors Welcome
 
 #### License
