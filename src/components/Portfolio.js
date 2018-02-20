@@ -1,16 +1,6 @@
 import React from "react";
 import { FaPlus, FaTag } from "react-icons/lib/fa";
 
-import Coffee from "../assets/images/portfolio/coffee.jpg";
-import Console from "../assets/images/portfolio/console.jpg";
-import Judah from "../assets/images/portfolio/judah.jpg";
-import IntoTheLight from "../assets/images/portfolio/into-the-light.jpg";
-import Farmerboy from "../assets/images/portfolio/farmerboy.jpg";
-import Girl from "../assets/images/portfolio/girl.jpg";
-import Origami from "../assets/images/portfolio/origami.jpg";
-import Retrocam from "../assets/images/portfolio/retrocam.jpg";
-
-
 
 const Portfolio = () => (
 
@@ -60,18 +50,7 @@ const Portfolio = () => (
 					</div>
 				</label>
 
-				<label className="accordion">
-					<input type='checkbox' name='checkbox-accordion'></input>
-					<div className="accordion__header">Olga Pozdnyakova, MD, PhD
-          <h6>Harbor Medical Associates, Brigham and Women's Hospital</h6>
-          </div>
-					<div className="accordion__content">
-          <h6>Clinical Laboratory Director for Harbor Medical Associates and Cancer Center Physician Diagnostic Laboratory, Weymouth, MA and Aushon Biosystems, Billerica, MA.</h6>
-						<p>“I have been working with South Shore Laboratory Consultants for the past four years as a medical director of five CLIA and CAP-certified labs.</p>
-            <p>"SSLC’s expertise includes all aspects of the state regulations, licensing and clinical test developments from initial stages of laboratory registration to overseeing maintenance and growth of existing labs.</p>
-            <p>"SSLC’s knowledge,  assistance and input greatly improve patient care.”</p>
-					</div>
-				</label>
+				
 
         <label className="accordion">
 					<input type='checkbox' name='checkbox-accordion'></input>
@@ -162,19 +141,7 @@ const Portfolio = () => (
 					</div>
 				</label>
 
-
-			</div>
-		</section>
-    </div>
-		</div>
-    <div className="six columns header-col">
-
-    <div className="container">
-		<section className="column">
-
-			<div>
-
-				<label className="accordion">
+	<label className="accordion">
 					<input type='checkbox' name='checkbox-accordion'></input>
 					<div className="accordion__header">
               Raaj Venkatesan
@@ -190,6 +157,33 @@ const Portfolio = () => (
               <p>“Needless to say, we will be using them for our clinical laboratory’s compliance needs. We highly recommend South Shore Laboratory Consultants to other clinical laboratories.”</p>
 					</div>
 				</label>
+			</div>
+		</section>
+    </div>
+		</div>
+    <div className="six columns header-col">
+
+    <div className="container">
+		<section className="column">
+
+			<div>
+
+
+<label className="accordion">
+					<input type='checkbox' name='checkbox-accordion'></input>
+					<div className="accordion__header">Olga Pozdnyakova, MD, PhD
+          <h6>Harbor Medical Associates, Brigham and Women's Hospital</h6>
+          </div>
+					<div className="accordion__content">
+          <h6>Clinical Laboratory Director for Harbor Medical Associates and Cancer Center Physician Diagnostic Laboratory, Weymouth, MA and Aushon Biosystems, Billerica, MA.</h6>
+						<p>“I have been working with South Shore Laboratory Consultants for the past four years as a medical director of five CLIA and CAP-certified labs.</p>
+            <p>"SSLC’s expertise includes all aspects of the state regulations, licensing and clinical test developments from initial stages of laboratory registration to overseeing maintenance and growth of existing labs.</p>
+            <p>"SSLC’s knowledge,  assistance and input greatly improve patient care.”</p>
+					</div>
+				</label>
+
+
+			
 
 				<label className="accordion">
 					<input type='checkbox' name='checkbox-accordion'></input>
