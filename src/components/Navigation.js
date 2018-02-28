@@ -15,7 +15,7 @@ const Navigation = () => (
         </a>
       </li>
       <li>
-        <a className="smoothscroll" href="#resume">
+        <a className="smoothscroll" href="#services">
           Services
         </a>
       </li>
@@ -25,7 +25,7 @@ const Navigation = () => (
         </a>
       </li>
       <li>
-        <a className="smoothscroll" href="#portfolio">
+        <a className="smoothscroll" href="#testimonials">
           Testimonials
         </a>
       </li>
