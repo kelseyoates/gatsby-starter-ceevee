@@ -5,7 +5,7 @@ import Work from "./Work";
 // import Skills from "./Skills";
 
 const Resume = () => (
-  <section id="resume">
+  <section id="services">
     <Education />
     <Work />
     {/* <Skills /> */}
