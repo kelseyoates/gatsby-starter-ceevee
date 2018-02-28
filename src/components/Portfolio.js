@@ -6,7 +6,7 @@ const Portfolio = () => (
 
 
 
-  <section id="portfolio">
+  <section id="testimonials">
 
 
 <div className="row">
