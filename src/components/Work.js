@@ -20,7 +20,7 @@ const Work = () => (
         <h3>Joanne B. Lannon, M.ED., DLM (ASCP)</h3>
         <h5>Founder & President</h5>
           <p>Joanne Lannon, President and Founder of South Shore Laboratory Consultants, has over 25 years of experience in laboratory medicine, and has provided consulting services to many types of clinical laboratories since 1988.</p>
-          <p>the state of Massachusetts, she has used her vast experience to maintain an exceptional reputation within the industry. Joanne is always highly recommended by professionals in her field.</p>
+          <p>As one of the first laboratory consultants in the state of Massachusetts, she has used her vast experience to maintain an exceptional reputation within the industry. Joanne is always highly recommended by professionals in her field.</p>
           <p>She has a Masters Degree in Education and is certified by the American Society of Clinical Pathologists as a Diplomate in Laboratory Management.</p>
       </div>
 
