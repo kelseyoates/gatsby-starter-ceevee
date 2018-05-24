@@ -173,9 +173,9 @@ h6 { font-size: 14px; line-height: 20px; }
 .subheader { }
 
 h3.blue {
-  /* border-bottom: 3px solid #11abb0; */
+  /* border-bottom: 3px solid #088da5; */
   padding-bottom: 6px;
-  color:#088DA5;
+  color:#088da5;
   font-size: 2em;
 }
 
@@ -296,7 +296,7 @@ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 a, a:visited {
    text-decoration: none;
    outline: 0;
-   color: #11ABB0;
+   color: #088da5;
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
@@ -366,7 +366,7 @@ li .member-list {
    color: #313131;
 }
 .stats-tabs li a:hover {
-   color:#11ABB0;
+   color:#088da5;
 }
 .stats-tabs li a b {
 	display: block;
@@ -378,7 +378,7 @@ li .member-list {
 
 /* definition list */
 dl { margin: 12px 0; }
-dt { margin: 0; color:#11ABB0; }
+dt { margin: 0; color:#088da5; }
 dd { margin: 0 0 0 20px; }
 
 /* Lining Definition Style Markup */
@@ -453,7 +453,7 @@ dd { margin: 0 0 0 20px; }
 }
 .pagination .current,
 .pagination .current:hover {
-   background-color: #11ABB0;
+   background-color: #088da5;
    color: #fff;
 }
 .pagination .inactive,
@@ -474,6 +474,7 @@ img.pull-left { margin: 12px 18px 0px 0px; }
 
 img.team {
   display: block;
+  border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -482,7 +483,7 @@ img.team {
   width:170px;
   height:170px;
   background: #1bbc9d;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+  /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.09); */
 }
 
 /*  6. Buttons  --------------------------------------------------------- */
@@ -494,7 +495,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
-   background: #11ABB0;
+   background: #088da5;
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
@@ -884,8 +885,6 @@ header {
   -webkit-background-size: cover !important;
  text-align: center; */
 
-  
-
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(23,23,23, 0.25)), to(transparent)), url(../images/flasks-606611.jpg);
   background-image: linear-gradient(rgba(23,23,23, 0.25) 100%, transparent), url(../images/flasks-606611.jpg);
   background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(23,23,23, 0.5)), to(rgba(23,23,23, 0.75))), -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(23,23,23, 0.25)), to(transparent)), url(../images/flasks-606611.jpg);
@@ -968,7 +967,7 @@ header .social li a {
   color: #fff;
 }
 header .social li a:hover {
-  color: #11abb0;
+  color: #088da5;
 }
 
 /* scrolldown link */
@@ -992,7 +991,7 @@ header .scrolldown a {
   transition: all 0.3s ease-in-out;
 }
 header .scrolldown a:hover {
-  color: #11abb0;
+  color: #088da5;
 }
 
 /* primary navigation
@@ -1063,7 +1062,7 @@ ul#nav li a:active {
   background-color: transparent !important;
 }
 ul#nav li.current a {
-  color: #11abb0;
+  color: #088da5;
 }
 
 /* ------------------------------------------------------------------ */
@@ -1085,7 +1084,7 @@ ul#nav li.current a {
 }
 #about a:hover,
 #about a:focus {
-  color: #11abb0;
+  color: #088da5;
 }
 
 #about h1 {
@@ -1147,7 +1146,7 @@ ul#nav li.current a {
 
 #resume a,
 #resume a:visited {
-  color: #11abb0;
+  color: #088da5;
   padding-left: 10px;
   padding-right: 10px;
   font-size: 1.3em;
@@ -1165,7 +1164,7 @@ ul#nav li.current a {
 
 }
 #resume h1 span {
-  border-bottom: 3px solid #11abb0;
+  border-bottom: 3px solid #088da5;
   padding-bottom: 6px;
 }
 #resume h6 {
@@ -1245,7 +1244,7 @@ ul#nav li.current a {
 
 #services a,
 #services a:visited {
-  color: #11abb0;
+  color: #088da5;
   padding-left: 10px;
   padding-right: 10px;
   font-size: 1.3em;
@@ -1263,7 +1262,7 @@ ul#nav li.current a {
 
 }
 #services h1 span {
-  border-bottom: 3px solid #11abb0;
+  border-bottom: 3px solid #088da5;
   padding-bottom: 6px;
 }
 #services h6 {
@@ -1317,9 +1316,10 @@ ul#nav li.current a {
   background-color: #fff;
   -moz-box-shadow: 0 0 8px rgba(0,0,0,.09);
   -webkit-box-shadow: 0 0 8px rgba(0,0,0,.09);
-  box-shadow: 0 0 8px rgba(0,0,0,.09);
+  box-shadow: 0 0 .5px rgba(0,0,0,.09);
   max-width: 100%;
   color: #313131;
+  border-radius: 4px;
 }
 
 #services .card .card-head {
@@ -1338,14 +1338,14 @@ ul#nav li.current a {
   padding-bottom: 3em;
   padding-left: 25px;
   padding-right: 25px;
-
+  border-radius: 5px;
   margin-top: 8em;
   /* margin-bottom: 2.5em; */
   border: 1px solid rgba(133,133,133,.15);
   background-color: #fff;
   -moz-box-shadow: 0 0 8px rgba(0,0,0,.09);
   -webkit-box-shadow: 0 0 8px rgba(0,0,0,.09);
-  box-shadow: 0 0 8px rgba(0,0,0,.09);
+  box-shadow: 0 0 .5px rgba(0,0,0,.09);
 }
 
 .member-info {
@@ -1373,6 +1373,8 @@ ul#nav li.current a {
   position: relative;
   padding-top: 1em;
   margin-top: -3em;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   border-left: 1px solid rgba(133,133,133,.15);
   border-right: 1px solid rgba(133,133,133,.15);
   border-bottom: 1px solid rgba(133,133,133,.15);
@@ -1925,12 +1927,12 @@ ul#nav li.current a {
 }
 
 h2 {
-  color: #1abc9c;
+  color: #088da5;
   text-align: center;
   margin: 20px 0;
 }
 h3 {
-  color: #088DA5;
+  color: #088da5;
   text-align: center;
   text-transform: none;
   font-size: 1.2em;
@@ -1966,8 +1968,8 @@ h6 {
 .accordion__header {
   background-color: #fff;
   border-bottom-width: 1px;
-  border-bottom-color: #088DA5;
-  color: #088DA5;
+  border-bottom-color: #088da5;
+  color: #088da5;
   text-align: center;
   text-transform: none;
   cursor: pointer;
@@ -2250,7 +2252,7 @@ call-to-action .button {
 
 #contact a,
 #contact a:visited {
-  color: #11abb0;
+  color: #088da5;
 }
 #contact a:hover,
 #contact a:focus {
@@ -2320,7 +2322,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
   color: #fff;
-  background-color: #11abb0;
+  background-color: #088da5;
 }
 #contact button.submit {
   text-transform: uppercase;
@@ -2339,7 +2341,7 @@ call-to-action .button {
   background: #fff;
 }
 #contact span.required {
-  color: #11abb0;
+  color: #088da5;
   font-size: 13px;
 }
 #message-warning,
@@ -2355,7 +2357,7 @@ call-to-action .button {
   color: #d72828;
 }
 #message-success {
-  color: #11abb0;
+  color: #088da5;
 }
 
 #message-warning i,
