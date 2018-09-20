@@ -22,6 +22,21 @@ const Portfolio = () => (
 		<section className="column">
 		
 			<div>
+	
+			<label className="accordion">
+					<input type='checkbox' name='checkbox-accordion'></input>
+					<div className="accordion__header">
+              Gray W. Rifkin, Esq
+              <h6>Commonwealth Diagnostics International, Inc.</h6>
+          </div>
+					<div className="accordion__content">
+						<h6>Chief Operating Officer, Commonwealth Diagnostics International, Inc.</h6>
+              <p>"CDI has utilized SSLC’s services for many years in both setting up our laboratories and obtaining licensure at the state level through MassDPH and the federal level through CLIA.  SSLC has also provided CDI with essential guidance on international clinical laboratory standards such as ISO 15189. In addition to preparing CDI’s laboratory for successful state and federal inspections,  SSLC has seamlessly lead our team through various administrative changes and notification processes, including change of laboratory directors.  SSLC has a knowledgeable team that provides professional, responsive, flexible, and seamless laboratory consulting services. We remain particularly impressed by how quickly SSLC’s team was able to understand the peculiarities of our lab and adapt to our organization’s needs.  SSLC’s ability to engage with our people and guide us through critical processes has been invaluable to our team."</p>
+					</div>
+				</label>
+	
+	
+	
 
 				<label className="accordion">
 					<input type='checkbox' name='checkbox-accordion'></input>
